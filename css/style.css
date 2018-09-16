@@ -1,0 +1,70 @@
+body {
+
+}
+#block1,#block2,#block3,#block4{
+  height: 100vh;
+  width:100%;
+}
+#block2{
+  background-color: #BFF996;
+}
+
+#block3{
+  background-color: #6C9688;
+}
+
+#block4{
+  background-color: #FFB263;
+}
+.demo {
+  background: #1779ba;
+}
+.grid-x.section1 {
+  background-color: #C8B2A1;
+  height: 100vh;
+}
+
+
+.cell {
+  /*background: dodgerblue;*//*#FD9497;*/
+  background: transparent;
+/*  line-height: 50px;*/
+  height: 80px;
+  color: white;
+  text-align: center;
+  z-index: 2;
+
+}
+
+.cell:nth-child(odd) {
+  background: #FD9497;
+}
+
+#cat{
+  width: 180px;
+  position:absolute;
+  bottom:340px;
+  left:830px;
+  z-index: 1;
+/*  display: none;
+*/  
+}
+
+.section2.grid-x{
+ /*height: 100vh;*/
+
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://cdn.pixabay.com/photo/2013/04/06/11/50/image-editing-101040_960_720.jpg");
+
+
+    /* Set a specific height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
